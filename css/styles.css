@@ -71,7 +71,7 @@ a :hover {
 
 #form {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 520px 1fr;
   grid-template-rows: 250px 70px 70px 50px;
   grid-template-areas: 
     ". google-logo ."
@@ -150,7 +150,7 @@ label {
   position: absolute;
   bottom: 0;
   display: grid;
-  grid-template-columns: 90px 90px 80px 1100px 70px 70px 70px;
+  grid-template-columns: 90px 90px 80px 890px 70px 70px 70px;
   grid-template-rows: 50px;
   grid-template-areas: "advertising business about . privacy terms settings";
 }
