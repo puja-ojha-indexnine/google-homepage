@@ -1,47 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" href= "..\css\home.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width" initial-scale="1.0">
+        <link rel="stylesheet" href= "..\css\styles.css" />
     </head>
     <title>Google</title>
+    <link rel="google icon" href="..\images\google-icon.ico">
 
     <body>
         <header>
-            <nav>
-              <ul id="nav_bar">
-                <li class="nav-links" id="gmail"><a href="#">Gmail</a></li>
-                <li class="nav-links" id="Images"><a href="#">Images</a></li>
-                <li class="login"><a href="#"><img src="..\images\profile_pic.png"></a></li>
-            </nav>
+            <div id="navbar">
+                <div></div>
+                <a href="#" id="gmail">Gmail</a>
+                <a href="#" id="images">Images</a>
+                <a href="#" id="menu"><img src="..\images\menu-icon.png" height="25px" width="25px"></a>
+                <button id="signIn-btn"><a href="#" id="sign-in">Sign in</a></button>
+            </div>
         </header>
         <br>
-        <div class="google">
+        <div id="form">
             <a href="#" id="google-logo"><img src="..\images\googlelogo.png"></a>
-        </div>
+            <input type="text" id="google-search" placeholder="   Search Google or type URL">
+            <br>
 
-        <div class="form">
-            <form>
-                <label for="form-search"></label>
-                <input type="text" id="form-search" placeholder="Search Google or type URL">
-            </form>
+            <div id="flexbox">
+                <button id="google-search-btn">Google Search </button>
+                <button id="random-search-btn">I'm Feeling Lucky</button>
+            </div>
+            <br>
+            <div id="google-lang">
+                <label for="google-lang">Google offered in:</label>
+                    <a href="#" id="lang">हिन्दी&nbsp;</a>
+                    <a href="#" id="lang">বাংলা&nbsp;</a>
+                    <a href="#" id="lang">తెలుగు&nbsp;</a>
+                    <a href="#" id="lang">मराठी&nbsp;</a>
+                    <a href="#" id="lang">தமிழ்&nbsp;</a>
+                    <a href="#" id="lang">ગુજરાતી&nbsp;</a>
+                    <a href="#" id="lang">ಕನ್ನಡ&nbsp;</a>
+                    <a href="#" id="lang">മലയാളം&nbsp;</a>
+                    <a href="#" id="lang">ਪੰਜਾਬੀ</a>
+                                      
+            </div>
         </div>
-
-        <div class="buttons">
-            <input type="submit" value="Google Search" id="google-search" />
-            <input type="submit" value="I'm feeling Lucky" id="feeling-lucky" />
+        
+        <div id="footer">
+            <footer>
+                <a href="#" id="advertising">Advertising</a>
+                <a href="#" id="business">Business</a>
+                <a href="#" id="about">About</a>    
+                <a href="#" id="privacy">Privacy</a>
+                <a href="#" id="terms">Terms</a>
+                <a href="#" id="settings">Settings</a>
+            </footer>
         </div>
-
-        <footer>
-            <ul class="footer-left">
-              <li><a href="#">Advertising</a></li>
-              <li><a href="#">Business</a></li>
-              <li><a href="#">About</a></li> 
-            </ul>
-            <ul class="footer-right">    
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Terms</a></li>
-              <li><a href="#">Settings</a></li>
-            </ul>       
-        </footer>
     </body>
 </html>
